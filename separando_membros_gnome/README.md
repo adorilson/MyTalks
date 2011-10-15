@@ -8,6 +8,7 @@ O público-alvo são pessoas que querem começar a colaborar com software livres
 
 # Onde a palestra foi apresentada
 
+* IT Day (15 de outubro de 2011) - http://itday.ithub.com.br/
 * V Encontro de Software Livre da Paraíba (20 a 23 de julho de 2011) - http://www.ensol.org.br/
 
 # Licença

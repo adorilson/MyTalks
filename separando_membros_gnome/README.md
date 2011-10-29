@@ -8,6 +8,7 @@ O público-alvo são pessoas que querem começar a colaborar com software livres
 
 # Onde a palestra foi apresentada
 
+* V Encontro Nordestino de Software Livre (28 a 30 de novembro de 2011) - http://ensl.org.br
 * IT Day (15 de outubro de 2011) - http://itday.ithub.com.br/
 * V Encontro de Software Livre da Paraíba (20 a 23 de julho de 2011) - http://www.ensol.org.br/
 

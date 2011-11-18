@@ -22,9 +22,9 @@
 \usecolortheme{beaver}
 
 % ------------------------------------------------------------------------------
-\title[Como os tradutores inativos do GNOME foram separados dos ativos]
+\title[Introdução ao desenvolvimento de software livre]
 {
-    Como os tradutores inativos do GNOME foram separados dos ativos
+    Introdução ao desenvolvimento de software livre
 }
 \subtitle{Lições aprendidas com hacking no Damned Lies}
 \author[Adorilson Bezerra]
@@ -43,35 +43,80 @@
 \frame
 {
     \frametitle{Ado... o que?}
-    \includegraphics[scale=0.3]{img/hackergotchi}
-    \begin{itemize}
-        \item adorilson @ internet
-        \item adorilson.bezerra no ifrn.edu.br
-    \end{itemize}
+    
+    \begin{columns}
+        \column{0.4\textwidth}
+        \begin{itemize}
+            \item adorilson @ internet
+            \item adorilson.bezerra no ifrn.edu.br
+        \end{itemize}
+        \column{0.4\textwidth}
+        \includegraphics[scale=0.3]{img/hackergotchi}
+    \end{columns}
 }
 
 % ------------------------------------------------------------------------------
 \section{Introdução}
 
-\subsection{Motivação}
+\subsection{Sobre o software livre}
 \frame
 {
+    \frametitle{O software é livre se você tem a liberdade para...}
     \begin{itemize}
-        \item "Pagamento", retribuição
-        \item Necessidade
-        \item Aprendizado
-        \item Diversão, realização
-        \item ...
+        \item ... executar o programa para qualquer propósito
+        \item ... estudar como o programa funciona e adaptá-los para suas necessidades
+        \item ... redistribuir cópias de modo que você possa ajudar ao seu próximos
+        \item ... aperfeiçoar o programa, e liberar os seus aperfeiçoamentos, de 
+        modo que toda a comunidade se beneficie
     \end{itemize}
+}
+
+
+\frame
+{
+    \frametitle{Motivação}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \begin{itemize}
+            \item "Pagamento", retribuição
+            \item Necessidade
+            \item Aprendizado
+            \item Diversão, realização
+            \item ...
+        \end{itemize}
+        \column{0.4\textwidth}
+        \begin{figure}[t]
+            \centering
+            \includegraphics[scale=0.4]{img/challenge-accepted}
+        \end{figure}
+    \end{columns}
+}
+
+\frame
+{
+    \frametitle{Estudo de caso}
+    \begin{quote}
+        Como os tradutores inativos do GNOME foram separados dos ativos
+    \end{quote}
 }
 
 \subsection{Sobre o GNOME}
 \frame
 {
-    \begin{itemize}
-        \item GNOME é...
-    \end{itemize}
+    \frametitle{O GNOME é...}
+        
     
+    \begin{columns}
+        \column{0.7\textwidth}
+        \begin{quote}
+        ... um projeto Internacional de software livre que provê basicamente duas soluções: o ambiente desktop GNOME, intuitivo e atraente para usuários finais; e a Plataforma de Desenvolvimento GNOME, um framework extenso para construção de aplicações que se integrem com todo o desktop. (Fonte: http://br.gnome.org/)
+        \end{quote}
+        \column{0.4\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.5]{img/gnome}
+        \end{figure}
+    \end{columns}
 }
 
 \subsection{Sobre o damned-lies}
@@ -217,9 +262,18 @@
 	\end{figure}
 }
 
-Colaboracao e Open Source dentro da empresa - Guilherme Chapiewski
-http://vai.la/2uIi
-Catedral e o Bazar - Eric Raymond
-http://vai.la/2uHM
+\frame{
+	\frametitle{Indicação de leitura para o fim de semana}
+	\begin{itemize}
+	    \item Colaboração e Open Source dentro da empresa - Guilherme Chapiewski
+	            \begin{itemize}
+                    \item http://vai.la/2uIi
+                \end{itemize}
+        \item Catedral e o Bazar - Eric Raymond
+                \begin{itemize}
+                    \item http://vai.la/2uHM
+                 \end{itemize}
+	\end{itemize}
+}
 
 \end{document}
